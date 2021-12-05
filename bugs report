@@ -1,0 +1,2 @@
+This subroutine has a bug, in fact the analyzes start only if the data relating to the state variables is omitted: d_old, G_old (k).
+So at the moment it is impossible to launch analyzes in which the Gauss points of the cohesive elements have an initial damage.
